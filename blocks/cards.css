@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+.cards {
+  width: 100%;
+}
+
+.cards__list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-gap: 20px 17px;
+  padding: 0;
+  margin: 0;
+}
+=======
+.cards {
+  width: 100%;
+}
+
+.cards__list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-gap: 20px 17px;
+  padding: 0;
+  margin: 0;
+}
+>>>>>>> 13397e3b6d2a0b9ae4f960a512f3706d6499fea6
