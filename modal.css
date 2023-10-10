@@ -1,0 +1,130 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  display: none;
+}
+.model_opnened {
+  display: flex;
+}
+
+.modal__close {
+  background-image: url(../images/close.svg);
+  border: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: -45px;
+  right: -45px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.modal__container {
+  max-width: 430px;
+  box-sizing: border-box;
+  height: 330px;
+  padding: 36px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modal__heading {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: left;
+  color: black;
+  margin-bottom: 54px;
+  margin-top: 0;
+}
+
+.modal__input {
+  width: 358px;
+  margin-bottom: 29px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.modal__description {
+  width: 358px;
+  border: none;
+  margin-bottom: 48px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.modal__button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  width: 358px;
+  height: 50px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+@media screen and (max-width: 510px) {
+  .modal {
+    margin-bottom: 3px;
+  }
+
+  .modal__container {
+    max-width: 282px;
+    padding-top: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 0;
+    margin-top: 22px;
+    margin-bottom: 3px;
+  }
+  .modal__close {
+    width: 26px;
+    height: 26px;
+    top: -42px;
+    right: 0px;
+  }
+  .modal__heading {
+    font-size: 18px;
+    margin-bottom: 75px;
+  }
+  .modal__input {
+    width: 238px;
+    margin-bottom: 30px;
+  }
+  .modal__description {
+    width: 238px;
+    margin-bottom: 30px;
+  }
+  .modal__button {
+    width: 238px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: 25px;
+  }
+}
