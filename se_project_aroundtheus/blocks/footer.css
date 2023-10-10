@@ -1,0 +1,19 @@
+.footer__copyright {
+  margin-top: 67px;
+  margin-bottom: 60px;
+  color: #545454;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer__copyright {
+    padding-left: 19px;
+    line-height: 17px;
+    font-size: 14px;
+    margin-top: 48px;
+    margin-bottom: 36px;
+  }
+}
