@@ -1,13 +1,13 @@
 .card {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
   height: 361px;
 }
 
 .card__image {
   width: 282px;
   height: 282px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .card__title {
